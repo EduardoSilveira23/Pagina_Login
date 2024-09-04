@@ -1,0 +1,124 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+
+body{
+
+    background-color: rgb(223, 226, 226);
+    text-align: center;
+
+}
+
+
+div{
+    padding-left: 5%;
+    border-radius:  100px;
+    margin: 5% 9% ;
+    padding-top: 2%;
+    background-color:white;
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    float:left;
+    justify-content: center;
+    align-items:center;
+    align-content: center;
+    text-align: center;
+    
+}
+
+.lateral{
+margin-left: 10%;
+width: 50%;
+height: 60vh;
+background-color: rgba(121, 46, 219, 0.822);
+display: flex;
+float:right;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: white;
+
+}
+
+.botaoCriarConta{
+
+color:white;
+background: rgba(121, 46, 219, 0.822);
+border-color: white;
+border-radius: 7px;
+width:30%;
+height:30px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+cursor: pointer;
+
+}
+
+.botaoform{
+ width: 100%;
+ height: 30px;
+ border-radius:7px;
+ border: none;
+ background:rgb(223, 226, 226);
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+.botaoEsqueci{
+    border:transparent;
+    border-radius: 20px;
+    width: 100%;
+    height: 30px;
+    background: white;
+    cursor: pointer;
+  
+}
+
+.botaoEntrar{
+    width: 50%;
+    height: 30px;
+    border-radius:7px;
+    background:rgba(121, 46, 219, 0.822);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    border:none;
+    cursor: pointer;
+    
+
+}
+.botaoEntrar:hover{
+ background: rgb(180, 182, 182);
+}
+
+.botaoCriarConta:hover{
+background: rgb(180, 182, 182);
+}
+
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+
+}
+
+h1{
+   
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+a{
+ text-decoration: none;   
+ padding: 3%;
+
+
+
+}
+
+h5{
+   color:white;
+
+}
